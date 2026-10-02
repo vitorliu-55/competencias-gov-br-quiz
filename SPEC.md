@@ -16,7 +16,7 @@ eletivos (e casas legislativas) são responsáveis por determinados atos e atrib
 
 ### Alternativas
 
-- **Resposta correta:** cargo eletivo ou casa legislativa.
+- **Resposta correta:** em cerca de 80% das perguntas é cargo eletivo ou casa legislativa; em cerca de 15–20% é cargo ou órgão não eletivo (ex.: STF, TCU, Ministério Público, PGR, AGU, Copom, TSE).
   - Cargos eletivos: Presidente, Governador, Prefeito, Senador, Deputado Federal,
     Deputado Estadual/Distrital, Vereador.
   - Casas: Câmara dos Deputados, Senado Federal, Congresso Nacional,
@@ -55,7 +55,7 @@ eletivos (e casas legislativas) são responsáveis por determinados atos e atrib
 
 - Brasil, em português.
 - Banco gerado por Claude com pesquisa e fontes; o dono do projeto revisa e aprova.
-- Meta inicial: cerca de 60 perguntas.
+- Banco atual: 93 perguntas (33 do lote 1 + 60 do lote 2; 11 do lote 2 têm resposta não eletiva).
 
 ## Técnica (proposta)
 
