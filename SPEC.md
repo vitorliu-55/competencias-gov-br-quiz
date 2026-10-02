@@ -28,7 +28,7 @@ eletivos (e casas legislativas) são responsáveis por determinados atos e atrib
 
 ### Tipos de conteúdo
 
-1. **Cenários** (	ipo: "cenario"): situações hipotéticas do dia a dia (ex.: falta de energia após tempestade, reajuste de passagem). O enunciado precisa de um verbo exato ("quem fiscaliza e pode multar", "quem autoriza o reajuste", "quem aprova a lei") para a resposta ser única, porque um mesmo cenário costuma envolver vários responsáveis.
+1. **Cenários** (	ipo: "cenario"): situações hipotéticas do dia a dia (ex.: falta de energia após tempestade, reajuste de passagem). Preferir respostas em cargos eletivos (ao menos 2/3 dos cenários; hoje 20 de 30 são cargos individuais, 7 são casas legislativas e 3 são órgãos técnicos). O enunciado precisa de um verbo exato ("quem fiscaliza e pode multar", "quem autoriza o reajuste", "quem aprova a lei") para a resposta ser única, porque um mesmo cenário costuma envolver vários responsáveis.
 2. **Atribuições gerais:** conceituais e duradouras
    (ex.: "Quem pode vetar um projeto de lei municipal aprovado pela Câmara?").
 3. **Casos reais atuais:** leis, decretos e medidas recentes.
