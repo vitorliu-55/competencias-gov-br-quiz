@@ -55,7 +55,7 @@ eletivos (e casas legislativas) são responsáveis por determinados atos e atrib
 
 - Brasil, em português.
 - Banco gerado por Claude com pesquisa e fontes; o dono do projeto revisa e aprova.
-- Banco atual: 93 perguntas (33 do lote 1 + 60 do lote 2; 11 do lote 2 têm resposta não eletiva).
+- Banco atual: 108 perguntas (lote 1: 33; lote 2: 60, com 11 de resposta não eletiva; lote 3: 15 perguntas sobre aprovações e autorizações prévias).
 
 ## Técnica (proposta)
 
@@ -70,6 +70,7 @@ eletivos (e casas legislativas) são responsáveis por determinados atos e atrib
   elimina ou aponta alternativas (ex.: "depois de autorizado pelo Congresso",
   "com parecer prévio do TCU", "aprovado pelo Senado"). Use "depois das devidas
   autorizações" e explique o fluxo completo na `explicacao`.
+- Em fluxos com aprovação ou autorização prévia (ex.: Senado aprova, Presidente nomeia), a explicação deve dizer quem faz cada etapa, e deve existir uma pergunta para cada etapa (a "direta" e a "inversa").
 - Não repetir no enunciado o nome de um cargo/órgão que seja alternativa.
 - Rode `python tools/checar_perguntas.py` depois de adicionar perguntas: ele lista
   enunciados que citam alternativas ou termos de fluxo para revisão humana.
