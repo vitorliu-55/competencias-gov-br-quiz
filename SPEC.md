@@ -55,7 +55,7 @@ eletivos (e casas legislativas) são responsáveis por determinados atos e atrib
 
 - Brasil, em português.
 - Banco gerado por Claude com pesquisa e fontes; o dono do projeto revisa e aprova.
-- Banco atual: 108 perguntas (lote 1: 33; lote 2: 60, com 11 de resposta não eletiva; lote 3: 15 perguntas sobre aprovações e autorizações prévias).
+- Banco atual: 164 perguntas (99 de atribuições gerais e 65 de casos reais, cerca de 40%). Casos reais com `revisar: true` foram conferidos apenas pelo resumo de busca, sem abrir a página da fonte.
 
 ## Técnica (proposta)
 
