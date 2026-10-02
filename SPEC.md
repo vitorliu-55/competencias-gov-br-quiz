@@ -28,9 +28,10 @@ eletivos (e casas legislativas) são responsáveis por determinados atos e atrib
 
 ### Tipos de conteúdo
 
-1. **Atribuições gerais:** conceituais e duradouras
+1. **Cenários** (	ipo: "cenario"): situações hipotéticas do dia a dia (ex.: falta de energia após tempestade, reajuste de passagem). O enunciado precisa de um verbo exato ("quem fiscaliza e pode multar", "quem autoriza o reajuste", "quem aprova a lei") para a resposta ser única, porque um mesmo cenário costuma envolver vários responsáveis.
+2. **Atribuições gerais:** conceituais e duradouras
    (ex.: "Quem pode vetar um projeto de lei municipal aprovado pela Câmara?").
-2. **Casos reais atuais:** leis, decretos e medidas recentes.
+3. **Casos reais atuais:** leis, decretos e medidas recentes.
    Cada um precisa de fonte verificada e data; só entra no banco o que for confirmado.
    Campo de revisão para sinalizar o que pode ter ficado desatualizado.
 
@@ -57,7 +58,7 @@ eletivos (e casas legislativas) são responsáveis por determinados atos e atrib
 
 - Brasil, em português.
 - Banco gerado por Claude com pesquisa e fontes; o dono do projeto revisa e aprova.
-- Banco atual: 201 perguntas (122 de atribuições gerais e 79 de casos reais, cerca de 39%). Por nível: 106 federais, 50 estaduais e 45 municipais. Casos reais com `revisar: true` foram conferidos apenas pelo resumo de busca, sem abrir a página da fonte.
+- Banco atual: 201 perguntas: 92 de atribuições gerais, 30 de cenários ("se acontecer X, quem é o responsável?") e 79 de casos reais (cerca de 39%). Por nível: 111 federais, 51 estaduais e 39 municipais. Casos reais com `revisar: true` foram conferidos apenas pelo resumo de busca, sem abrir a página da fonte.
 
 ## Técnica (proposta)
 
