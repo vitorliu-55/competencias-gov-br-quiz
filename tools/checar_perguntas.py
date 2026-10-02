@@ -24,6 +24,8 @@ for b in blocos:
     enun = re.search(r"pergunta:\s*" + STR, b).group(1)
     alts = re.findall(STR, re.search(r"alternativas:\s*\[(.*?)\]", b, re.S).group(1))
     achados = []
+    if not re.search(r'dificuldade:\s*"(facil|media|dificil)"', b):
+        achados.append("sem dificuldade (facil, media ou dificil)")
     for a in alts:
         nome = re.sub(r"\s*\(.*?\)", "", a).strip()
         if len(nome) > 3 and nome.lower() in enun.lower():

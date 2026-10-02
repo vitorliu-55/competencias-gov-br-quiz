@@ -74,11 +74,12 @@ function recordScore(pontos, total) {
 const config = {
   mode: "infinito",
   temas: new Set(Object.keys(TEMAS)),
+  dificuldades: new Set(Object.keys(DIFICULDADES)),
   n: N_DEFAULT,
 };
 
 function filteredPool() {
-  return QUESTIONS.filter(q => config.temas.has(q.tema));
+  return QUESTIONS.filter(q => config.temas.has(q.tema) && config.dificuldades.has(q.dificuldade));
 }
 
 // ---------- tela inicial ----------
@@ -110,7 +111,7 @@ function showHome() {
     const total = filteredPool().length;
     countEl.textContent = total === 0
       ? "Nenhuma pergunta com esses filtros."
-      : `${total} pergunta${total === 1 ? "" : "s"} disponível${total === 1 ? "" : "is"}.`;
+      : `${total} pergunta${total === 1 ? "" : "s"} ${total === 1 ? "disponível" : "disponíveis"}.`;
     btnStart.disabled = total === 0;
     for (const [key, b] of Object.entries(modeButtons)) {
       const on = key === config.mode;
@@ -140,6 +141,7 @@ function showHome() {
       nRow),
     el("div", { class: "card" },
       el("h2", null, "Filtros"),
+      group("Dificuldade", DIFICULDADES, config.dificuldades),
       group("Tema", TEMAS, config.temas),
       countEl),
     btnStart,
@@ -249,7 +251,9 @@ function showQuestion(q) {
     game.mode === "pontuado" &&
       el("div", { class: "progress" }, el("div", { style: `width:${(game.answered / game.total) * 100}%` })),
     el("div", { class: "card" },
-      el("div", { class: "chips" }, el("span", { class: "chip" }, TEMAS[q.tema])),
+      el("div", { class: "chips" },
+        el("span", { class: "chip" }, TEMAS[q.tema]),
+        el("span", { class: "chip dif-" + q.dificuldade }, DIFICULDADES[q.dificuldade])),
       el("div", { class: "question" }, q.pergunta),
       el("div", { class: "stack" }, buttons),
       feedbackBox),

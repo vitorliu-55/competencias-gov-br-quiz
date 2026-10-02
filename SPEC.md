@@ -43,7 +43,9 @@ eletivos (e casas legislativas) são responsáveis por determinados atos e atrib
 
 ## Filtros
 
-- Só por tema (cada pergunta tem 1 tema).
+- Por tema (cada pergunta tem 1 tema) e por dificuldade (fácil, média ou difícil).
+- Cada pergunta mostra, durante o jogo, a tag do tema e a de dificuldade.
+- Critério de dificuldade: **fácil** = conhecimento comum de cidadão, com pouca confusão possível; **média** = exige distinguir nível, casa ou órgão, ou o fluxo básico; **difícil** = detalhes constitucionais, quóruns, aprovações prévias ou órgãos técnicos menos conhecidos. Hoje: 61 fáceis, 90 médias e 58 difíceis.
 
 ## Histórico (no navegador, sem login)
 
@@ -82,7 +84,7 @@ eletivos (e casas legislativas) são responsáveis por determinados atos e atrib
   "id": "q001",
   "tema": "processo-legislativo",
   "nivel": "municipal",
-  "tipo": "atribuicao",
+  "tipo": "atribuicao",`n  "dificuldade": "media",
   "pergunta": "Quem sanciona ou veta um projeto de lei aprovado pela Câmara Municipal?",
   "alternativas": ["Prefeito", "Vereador", "Governador", "Secretário municipal"],
   "correta": "Prefeito",

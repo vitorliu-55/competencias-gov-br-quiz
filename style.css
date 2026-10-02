@@ -9,6 +9,7 @@
   --ok: #1b7f4b;
   --ok-bg: #e3f4ea;
   --bad: #b3261e;
+  --warn: #9a5b00;
   --bad-bg: #fbe7e5;
 }
 @media (prefers-color-scheme: dark) {
@@ -23,6 +24,7 @@
     --ok: #5fd38d;
     --ok-bg: #173826;
     --bad: #ff8a80;
+    --warn: #f2b84b;
     --bad-bg: #40201e;
   }
 }
@@ -104,3 +106,6 @@ main > button.primary { width: 100%; margin-top: 4px; }
 .tabs { display: flex; gap: 6px; margin-bottom: 12px; }
 .tab { flex: 1; min-height: 40px; padding: 6px 10px; }
 .tab.selected { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent) inset; font-weight: 600; }
+.chip.dif-facil { color: var(--ok); border-color: var(--ok); }
+.chip.dif-media { color: var(--warn); border-color: var(--warn); }
+.chip.dif-dificil { color: var(--bad); border-color: var(--bad); }
